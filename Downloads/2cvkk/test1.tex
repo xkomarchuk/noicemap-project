@@ -1,0 +1,112 @@
+\documentclass[10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovak]{babel}
+\usepackage{amsmath}
+\usepackage{tikz}
+
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric}
+
+\begin{document}
+
+\section{Architektúra a metódy}
+
+Spracovanie signálu v systéme NOISEMAP prebieha
+v niekoľkých krokoch, ako znázorňuje UML diagram aktivít.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[
+        node distance=8mm and 15mm,
+        every node/.style={font=\small},
+        startstop/.style={
+            ellipse,
+            draw,
+            minimum width=22mm,
+            minimum height=7mm,
+            align=center
+        },
+        process/.style={
+            rectangle,
+            rounded corners=2pt,
+            draw,
+            text width=42mm,
+            minimum height=8mm,
+            align=center
+        },
+        decision/.style={
+            diamond,
+            draw,
+            aspect=2.2,
+            text width=25mm,
+            align=center,
+            inner sep=1pt
+        },
+        arrow/.style={
+            -{Stealth[length=2mm]},
+            thick
+        }
+    ]
+
+    \node[startstop] (start) {Začiatok};
+
+    \node[process, below=of start] (load)
+        {Načítanie signálu};
+
+    \node[decision, below=of load] (valid)
+        {Signál je platný?};
+
+    \node[process, below=of valid] (filter)
+        {Filtrácia šumu};
+
+    \node[process, below=of filter] (analysis)
+        {Analýza signálu};
+
+    \node[process, below=of analysis] (result)
+        {Zobrazenie výsledkov};
+
+    \node[startstop, below=of result] (end)
+        {Koniec};
+
+    \node[
+        process,
+        right=of valid,
+        text width=30mm
+    ] (reject) {Odmietnutie signálu};
+
+    \node[startstop, below=of reject] (endreject)
+        {Koniec};
+
+    \draw[arrow] (start) -- (load);
+    \draw[arrow] (load) -- (valid);
+    \draw[arrow] (valid.south) --
+        node[right] {Áno} (filter.north);
+    \draw[arrow] (filter) -- (analysis);
+    \draw[arrow] (analysis) -- (result);
+    \draw[arrow] (result) -- (end);
+
+    \draw[arrow] (valid.east) --
+        node[above] {Nie} (reject.west);
+    \draw[arrow] (reject) -- (endreject);
+
+    \end{tikzpicture}
+    \caption{UML diagram aktivít systému NOISEMAP.}
+    \label{fig:uml_diagrama}
+\end{figure}
+
+Matematický model systému možno reprezentovať
+pomocou nasledujúcej matice:
+
+\begin{equation}
+    \mathbf{A} =
+    \begin{bmatrix}
+        1 & 0 & 1 & 0 & 1 \\
+        0 & 1 & 0 & 1 & 0 \\
+        1 & 1 & 0 & 0 & 1 \\
+        0 & 1 & 1 & 0 & 0 \\
+        1 & 0 & 0 & 1 & 1
+    \end{bmatrix}
+\end{equation}
+
+\end{document}
