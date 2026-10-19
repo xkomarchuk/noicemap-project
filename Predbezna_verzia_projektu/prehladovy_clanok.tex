@@ -1,0 +1,94 @@
+\documentclass[10pt,twoside,slovak,a4paper]{article}
+
+\usepackage[slovak]{babel}
+\usepackage[IL2]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+
+\usepackage{cite}
+
+\makeatletter
+\renewcommand\subsection{\@startsection{subsection}{2}{10pt}{-3.25ex\@plus -1ex \@minus -.2ex}{1.5ex \@plus .2ex}{\normalfont\large\bfseries}}
+\makeatother
+
+\pagestyle{headings}
+
+\title{NoiseMap: mapovanie hluku v~interiéroch v~reálnom čase pomocou senzorových sietí a~crowdsourcingových meraní\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2026/27, vedenie: Oliver Udvardi}}
+
+\author{Mykola Kornilov, Danyil Komarchuk, Kholoshyn Kostiantyn, Kniaziev Valerii\\[2pt]
+	{\small Slovenská technická univerzita v Bratislave}\\
+	{\small Fakulta informatiky a informačných technológií}\\
+	{\small \texttt{xkornilov@stuba.sk, xkomarchuk@stuba.sk, xkholoshyn@stuba.sk, xkniaziev@stuba.sk}}
+	}
+
+\date{\small 19. október 2026}
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Ľudia si často vyberajú miesto na prácu, štúdium alebo oddych bez informácie o reálnej hladine hluku v danom priestore. Článok sa zaoberá možnosťou zbierať údaje o akustickom prostredí v budovách pomocou stacionárnych senzorov a dobrovoľných meraní návštevníkov prostredníctvom mobilnej aplikácie a prezentovať ich ako interaktívnu mapu spolu s typickými dennými vzormi. Prehľadovo charakterizuje súčasný stav v oblasti merania a mapovania hluku, crowdsourcingu, kalibrácie rôznych typov mikrofónov, priestorovej interpolácie v interiéroch a ochrany súkromia. Na tomto základe sa navrhuje architektúra platformy NoiseMap a vymedzujú sa merateľné ukazovatele jej overenia. Zostávajúce otvorené otázky sa týkajú najmä presnosti telefónnych meraní a získavania dostatočného počtu príspevkov.
+\end{abstract}
+
+
+
+\section{Úvod} \label{uvod}
+
+
+
+\section{Vymedzenie pojmov} \label{pojmy}
+
+
+
+\section{Stav poznania} \label{stav}
+
+
+\subsection{Existujúce systémy na mapovanie hluku} \label{stav:systemy}
+
+
+\subsection{Senzory na meranie hluku} \label{stav:senzory}
+
+
+\subsection{Meranie hluku mobilným telefónom a kalibrácia} \label{stav:kalibracia}
+
+
+\subsection{Crowdsourcing a dôveryhodnosť údajov} \label{stav:crowdsourcing}
+
+
+\subsection{Priestorová interpolácia v interiéroch} \label{stav:interpolacia}
+
+
+\subsection{Časové rady a predikcia typického dňa} \label{stav:casove}
+
+
+\subsection{Súkromie a právne aspekty} \label{stav:sukromie}
+
+
+
+\section{Identifikované problémy} \label{problemy}
+
+
+
+\section{Navrhované riešenie NoiseMap} \label{riesenie}
+
+
+
+\section{Porovnanie s inými riešeniami} \label{porovnanie}
+
+
+
+\section{Merateľné ukazovatele a overenie} \label{ukazovatele}
+
+
+
+\section{Záver} \label{zaver}
+
+
+\bibliography{literatura}
+\bibliographystyle{plain}
+\end{document}
