@@ -1,0 +1,46 @@
+
+2. Predbežná verzia projektu
+
+Prvá verzia návrhu, ktorú máte odovzdať, by mala mať príbližne 50–60% rozsahu očakávanej finálnej verzie (bod 4). Je jasné, že v tejto fáze bude návrh nerovnomerne rozpracovaný, ale už teraz by mala byť jasná jeho idea a niektoré z merateľných ukazovateľov, cieľov. Súčasťou opisu projektového zámeru bude sprievodný dokument v podobe prehľadového článku. Práve v ňom charakterizujte zdroje, stav poznania, vedecké základy a predchádzajúce výsledky, ktoré sú základom pre realizáciu projektu.
+
+Veľmi je dôležité, aby ste sa na zdroje odkazovali už v najskorších verziách článku. S odstupom času je čoraz ťažšie si spomenúť na kontext a vhodne sa na zdroj odkázať.
+
+Článok určite nevznikne tak, že najprv všetko preštudujete, následne premyslíte, a potom v poradí od úvodu po záver napíšete (toto by sa dalo označiť za vodopádový prístup). Postup je skôr taký, že po stanovení pracovného názvu, napísaní zhrnutia (abstraktu) a určenia rámcovej štruktúry článku (názvy častí), rozpracúvate jednotlivé aspekty, ktorými sa zaoberáte naprieč všetkými časťami článku (toto je tzv. iteračný a inkrementálny prístup).
+
+Pri písaní článku vám môžu pomôcť nasledujúce otázky:
+
+    Čím sa zaoberáte a prečo (ako to definujú iní a ako by ste to definovali vy)?
+    Aký je stav v oblasti (s odkazmi na zdroje)?
+    Čo pokladáte za významný problém v tejto oblasti a prečo (opora v literatúre)?
+    Je nejaké riešenie a aké?
+    Je vaše riešenie podobné iným (hoci aj z inej oblasti a len v z určitého hľadiska)?
+    O čom je článok, k čomu ste ním prispeli a čo zostáva otvorené?
+
+Článok vypracujte ako dokument triedy article podľa príkladu článku a bibliografie.
+
+Odovzdáva sa:
+
+    formulár VV-A až VV-E žiadosti pre aplikovaný výskum súbor v LaTeXu a v PDF formáte
+    formulár VV-F vecný zámer projektu súbor v LaTeXu a v PDF formáte
+    zdrojový tvar prehľadového článku:
+        súbor v LaTeXu s textom prehľadového článku
+        súbor v BibTeXu s bibliografiou
+        (ak prehľadový článok obsahuje) obrázky v zdrojovom formáte (v ktorom boli vytvorené) a vo formáte, v ktorom sú vložené do článku
+        (ak prehľadový článok obsahuje) tabuľky v zdrojovom formáte a vo formáte, v ktorom sú vložené do článku (ak neboli vytvorené priamo v LaTeXu)
+    prehľadový článok v PDF formáte
+
+Hodnotenie
+
+Aby predbežná verzia projektu mohla byť hodnotená nenulovým počtom bodov:
+
+    musí zodpovedať zameraniu projektu (odovzdanému podľa bodu 1) vrátane úprav zo strany učiteľa
+    musí byť napísaný v LaTeXu a musí sa dať preložiť do formátu PDF
+    prehľadový článok musí mať minimálne 4 strany stanoveného formátu
+    prehľadový článok sa musí odkazovať na zdroj, ktorý vás k danej téme primárne usmernil a aspoň na 7 ďalších súvisiacich zdrojov (v texte) a na toto musí byť použitý BibTeX
+
+Spôsob hodnotenia je nasledujúci:
+Formuláre VV-A až VV-F, v zmysle hodnotiacich kritérií na posudzovanie projektu aplikovaného výskumu a vývoja časť C; Príloha 2 – Postup hodnotenia a hodnotiace kritériá – slovenská verzia [pdf, 166 kB]:
+
+    Excelentnosť – 5 b (Vysoká úroveň (excelentná úroveň): Projektový zámer je jasne a presvedčivo formulovaný, s inovatívnymi a dobre zdôvodnenými postupmi a vysokým aplikačným dopadom. Riešený problém je vysoko aktuálny a originálny, s potenciálom priniesť prelomové riešenia. Ciele projektu sú veľmi jasne definované, reálne a merateľné. Metodológia je správne zvolená, detailne rozpracovaná a plne podporuje dosiahnutie cieľov. Výstupy riešiteľa sú excelentné, s preukázateľným prínosom do praxe. Riešiteľ aj tím sú medzinárodne uznávaní odborníci, s jasnou víziou ďalšieho rozvoja a budovania kapacít. Významné zapojenie mladých pracovníkov s dôrazom na ich rast a budovanie expertízy. Vysoká kompetentnosť všetkých zapojených organizácií aj jednotlivcov - 5 b; Stredná úroveň (dobrá excelentnosť): Projektový zámer a postupy sú primerane zdôvodnené, majú jasnú aplikačnú úroveň, hoci s určitými obmedzeniami. Riešený problém je aktuálny, originalita je čiastočná alebo len v niektorých aspektoch. Ciele projektu sú jasné a väčšinou dosiahnuteľné. Metodológia je relevantná, no s drobnými slabinami v prepojení na ciele. Výstupy riešiteľa sú kvalitné a majú potenciál aplikácie. Riešiteľ aj tím preukazujú dobrú úroveň expertízy a odbornej spôsobilosti, existuje aj potenciál ďalšieho rastu. Mladí pracovníci sú zapojení, ale skôr okrajovo. Kompetentnosť zapojených organizácií a jednotlivcov je dobrá, no nie úplne vyrovnaná – 3–4 b; Nízka úroveň (slabá excelentnosť): Projektový zámer je nejasný, navrhované postupy sú nedostatočne zdôvodnené alebo nevhodné. Riešený problém má nízku aktuálnosť alebo je už riešený v iných projektoch bez originality. Ciele projektu sú neurčité, nerealistické alebo len formálne deklarované. Metodológia je nesprávne zvolená, bez väzby na ciele projektu. Výstupy riešiteľa sú málo kvalitné alebo nepreukazujú aplikovateľnosť. Riešiteľ a tím vykazujú obmedzenú odbornosť a skúsenosti, chýba vízia ďalšieho rozvoja. Slabá alebo žiadna účasť mladých pracovníkov. Kompetentnosť zapojených organizácií a jednotlivcov je nedostatočná – 0–2 b)
+    Dopad – 5 b (Vysoká úroveň (excelentný dopad): Projekt má zásadné prínosy pre rozvoj poznania, aplikovaného výskumu a inovácií – prináša nové alebo významne zdokonalené produkty, technológie, služby či spoločenské inovácie. Výsledky sú jasne využiteľné pre žiadateľa/užívateľa v SR aj v zahraničí, s vysokým aplikačným potenciálom. Ekonomický a spoločenský prínos je významný a preukázateľný (napr. zvýšenie pridanej hodnoty, tvorba pracovných miest, zlepšenie kvality života, environmentálne benefity). Opatrenia na maximalizáciu výsledkov a komunikáciu sú systematické, premyslené a zaručujú široký dopad projektu – 5 b; Stredná úroveň (dobrý dopad): Projekt má jasné prínosy pre rozvoj poznania a inovácií, hoci nie úplne prelomové. Výsledky sú využiteľné pre žiadateľa/užívateľa, prevažne v SR, s obmedzeným potenciálom pre zahraničie. Ekonomický a spoločenský prínos je identifikovateľný, no čiastočne limitovaný. Opatrenia na maximalizáciu výsledkov a komunikáciu sú definované, no s rezervami v rozsahu alebo kvalite – 3–4 b; Nízka úroveň (slabý dopad): Prínos projektu pre poznanie, výskum a inovácie je obmedzený, málo originálny alebo len deklaratívny. Deklarované výsledky majú nízku využiteľnosť, sú ťažko aplikovateľné pre žiadateľa/užívateľa v SR aj v zahraničí. Ekonomický a spoločenský prínos je nejasný, málo preukázateľný alebo zanedbateľný. Opatrenia na maximalizáciu výsledkov a komunikáciu sú nevyhovujúce alebo absentujú – 0–2 b)
+    Implementácia – 5 b (Vysoká úroveň (excelentná implementácia): Projekt je spracovaný jasne, zrozumiteľne, s logicky prepojenými cieľmi, krokmi a postupmi. Projektový plán je realistický, detailne rozpracovaný s jasným harmonogramom, míľnikmi a kvalitne definovanými pracovnými balíkmi. Projektový manažment je dobre nastavený, s efektívnymi procesmi riadenia a kontrolnými mechanizmami. Riziká implementácie sú dôkladne identifikované, so systematicky pripravenými stratégiami ich zmiernenia. Rozpočet je transparentný, realistický a jasne prepojený na ciele a výstupy projektu. Existujúca infraštruktúra pracoviska je kvalitná, poskytuje záruku excelentného riešenia projektu a dosiahnutia cieľov – 5 b; Stredná úroveň (dobrá implementácia): Projekt je spracovaný prehľadne, postupy a ciele sú logické, hoci nie úplne detailné. Projektový plán a harmonogram sú primerane nastavené, obsahujú základné míľniky a pracovné balíky, s určitými slabinami v detailoch. Projektový manažment je definovaný, procesy riadenia sú funkčné, ale nie vždy úplne systematické. Riziká implementácie sú identifikované, spôsoby ich zmiernenia sú navrhnuté, ale len čiastočne rozpracované. Rozpočet je väčšinou odôvodnený a primeraný, s menšími rezervami. Existujúca infraštruktúra je dostatočná pre riešenie projektu, aj keď nie na špičkovej úrovni – 3–4 b; Nízka úroveň (slabá implementácia): Projekt je spracovaný neprehľadne, s nízkou zrozumiteľnosťou a nelogickou nadväznosťou cieľov a postupov. Projektový plán je neúplný alebo nerealistický, harmonogram je neprimeraný, chýbajú jasné míľniky alebo pracovné balíky. Projektový manažment je nedostatočne definovaný, procesy riadenia sú slabé alebo chýbajú. Riziká implementácie nie sú identifikované alebo nie sú navrhnuté spôsoby ich zmiernenia. Finančné zabezpečenie projektu je slabé, rozpočet je neprimerane nastavený alebo neodôvodnený. Existujúca infraštruktúra pracoviska je nedostatočná, neposkytuje záruku kvalitného riešenia – 0–2 b)
